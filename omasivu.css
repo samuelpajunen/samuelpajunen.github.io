@@ -102,8 +102,9 @@ img {
 
 
 
-@media screen and (max-width: 480px) {
-  .hissikuva {
-    size: 120%;
+@media only screen and (max-width: 600px) {   
+  .hissikuva {    
+   width: 60%;
+  height: auto;  
+  } 
   }
-}
