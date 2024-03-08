@@ -119,6 +119,14 @@ img {
     background-color: rgb(188, 68, 240);
       
   }
+
+  h3 {
+    padding-left: 1pc;
+  padding-right: 1pc;
+  padding-bottom: 2pc;
+  text-align: center;
+  font-family: Arial;
+  }
   }
 
   
