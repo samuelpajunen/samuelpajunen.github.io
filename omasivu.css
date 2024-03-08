@@ -8,8 +8,12 @@ h2 {
     padding-top: 3pc;
 }
 
-h3 {
-    text-align: center;
+.jakaja{
+  height: 3px;
+  margin-left: 10pc;
+  margin-right: 10pc;
+  background-color: rgb(188, 68, 240);
+      
 }
 
 header {
@@ -108,6 +112,13 @@ img {
   height: auto;  
   } 
 
+  .jakaja{
+    height: 3px;
+    margin-left: 2pc;
+    margin-right: 2pc;
+    background-color: rgb(188, 68, 240);
+      
+  }
   }
 
   
