@@ -1,3 +1,6 @@
+
+/* "h1" ja "h2" ovat otsikko tyylejä ja näitä muokattu olemaan sivun keskeellä 
+sekä h2 lisätty hieman lisä tilaa sen ylä puolelle*/
 h1 { 
     text-align: center;
 
@@ -8,6 +11,8 @@ h2 {
     padding-top: 3pc;
 }
 
+/* Tässä on muokattu tekstejä jakavaa lilan väristä ohutta viivaa. Viivojen pituudet 
+määritelty, sekä väri ja viivan korkeus */
 .jakaja{
   height: 3px;
   margin-left: 10pc;
@@ -16,11 +21,9 @@ h2 {
       
 }
 
-header {
-    margin: 0pc;
-    padding-left: 0pc;
-}
 
+/* Tekstille määriteltiin fontti, sen sijainti keskelle sivustoa sekä tilaa tekstin
+ympärille */
 p {
   padding-left: 15pc;
   padding-right: 15pc;
@@ -30,18 +33,21 @@ p {
 
 }
 
+/* Tämän avulla poistin navigoinnin teskteistä alaviivat */
 a {
   text-decoration: none;
 }
 
-
+/* Tässä asettelin "Itsestäni" sivun kuvat yhteen riviin ja lisäsin alas tilaa
+jotta kuvat saisivat enemmän tilaa ympärilleen ja niitä olisi mukavampi katsella */
 .row {
   flex-direction: row;
   display: flex;
   margin-bottom: 100px;
 }
 
-
+/* Määrittelin "Koulutus" sivun Gooogle Maps ikkunan sijainnin sivulla sekä
+kokoa ja hieman lisäsin tilaa alapuolelle */
 .kartta {
   width: 100%;
   display: flex;
@@ -50,7 +56,8 @@ a {
   margin-bottom: 100px;
 }
 
-
+/* Asetin kuvat olemaan keskellä, kuvien koon sekä tein reunoista hieman kaarevia
+ja lisäsin hieman varjostusta kuvien taustalle. */
 img {
   display: block;
   margin-left: auto;
@@ -61,7 +68,7 @@ img {
 }
 
 
-/* CSS */
+/* Tässä muokattiin navigaation nappien ulkoasua */
 .button-56 {
   align-items: center;
   background-color: #fee6e3;
@@ -100,6 +107,7 @@ img {
   outline: 0;
 }
 
+/* Tässä määritelty tarkemmin, miltä napit näyttävät puhelin näkymässä */
 @media (min-width: 768px) {
   .button-56 {
     padding: 0 40px;
@@ -107,13 +115,15 @@ img {
 }
 
 
-
+/* Tässä määrittelin etusivulla olevan kuvan kokoa puhelin näkymässä */
 @media only screen and (max-width: 480px) {   
   .hissikuva {    
    width: 60%;
   height: auto;  
   } 
 
+  /* Tässä määriteltiin lilan katkoviivojen ulkoasua tekstien välissä
+  puhelin näkymässä */
   .jakaja{
     height: 3px;
     margin-left: 2pc;
@@ -122,6 +132,8 @@ img {
       
   }
 
+  /* Tässä määrittelin miltä tekstin ulkoasu ja sijainti näyttäisi 
+  puhelin näkymässä */
   p {
     padding-left: 1pc;
   padding-right: 1pc;
